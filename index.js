@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 // Configure CORS for production
 const allowedOrigins = [
   'http://localhost:5173', // Local frontend
-  'https://your-portfolio.vercel.app', // Replace with your Vercel URL later
+  'https://portfolio-frontend-nu-eight.vercel.app', // Replace with your Vercel URL later
 ];
 
 app.use(cors({
