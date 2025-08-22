@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: portfolio-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: MAIL_SENDER
+        sync: false
+      - key: MAIL_RECEIVER
+        sync: false
+      - key: MAIL_PASSWORD
+        sync: false
